@@ -1,0 +1,12 @@
+import random
+import stdio
+import sys
+
+# take x as int
+x = int(sys.argv[1])
+
+# find die rolls
+y = random.randint(1, x) + random.randint(1, x)
+
+# print total rolls
+stdio.writeln(y)
